@@ -13,6 +13,6 @@ AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 
 # 1 Month for most static assets
-<filesMatch ".(webp|css|jpg|jpeg|png|gif|js|ico)$">
+<filesMatch ".(webp|css|jpg|jpeg|png|svg|gif|js|ico)$">
 Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
